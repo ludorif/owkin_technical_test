@@ -1,0 +1,15 @@
+﻿.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.multiline {
+    white-space: pre-wrap;
+}
+
+html {
+    font-size: 20px;
+}
