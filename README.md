@@ -1,10 +1,10 @@
-# 🌱 Technical test
+# Technical test
 
 **First working version of an agentic product.**
 
 ---
 
-##How to use
+## How to use
 
 - Make sure Docker Desktop is installed and running before starting the backend or frontend containers.
 - Note: docker run will download the image the first time you use it, which may take a few minutes.
@@ -19,8 +19,8 @@
 
 **Mac or manual command line**
 - Open Docker Desktop from Applications
-- docker run -p 8000:8000 ghcr.io/ludorif/technical_test:be-v0.1
-- docker run -p 5173:80 ghcr.io/ludorif/technical_test:fe-v0.1
+- docker run -p 8000:8000 ghcr.io/ludorif/owkin_technical_test:be-v0.1
+- docker run -p 5173:80 ghcr.io/ludorif/owkin_technical_test:fe-v0.1
 - Open http://localhost:5173/
 - Type and submit your question
 
@@ -33,7 +33,7 @@
 - glioblastoma target?
 ---
 
-## ✨ Architecture
+## Architecture
 
 - **Backend:** Python with FastAPI
 - **Frontend:** React (Typescript)
@@ -44,10 +44,10 @@
 
 ---
 
-##Tradeoffs of AI components in the prototype
+## Tradeoffs of AI components in the prototype
 - With more time, an LLM could translate user questions into the internal function context, allowing more flexible natural language queries.
 
-##Pros and cons of using AI-assisted coding in this case
+## Pros and cons of using AI-assisted coding in this case
 ** Pros **
 - Can help with architecture
 - Can help with format (i.e. workflow yml files)
@@ -59,7 +59,7 @@
 - AI may produce incorrect solutions if context is incomplete
 - Human validation remains essential
 
-## 🗺 Next steps
+## Next steps
 
 - Unit testing
 - Integrate LLM for flexible natural language understanding
